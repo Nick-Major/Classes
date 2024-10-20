@@ -25,10 +25,5 @@ export class Character {
 	}
 }
 
-
-
-
-
-
-
-
+let player = new Character("Игрок", "Swordsman", 100, 1, 40, 10);
+console.log(player);
