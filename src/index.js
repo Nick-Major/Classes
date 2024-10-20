@@ -25,52 +25,10 @@ export class Character {
 	}
 }
 
-export class Bowerman extends Character {
-	constructor(name) {
-		super(name, "Bowman", 100, 1, 25, 25)
-	}
-}
 
-export class Swordsman extends Character {
-	constructor(name) {
-		super(name, "Swordsman", 100, 1, 40, 10)
-	}
-}
 
-export class Magician extends Character {
-	constructor(name) {
-		super(name, "Magician", 100, 1, 10, 40)
-	}
-}
 
-export class Daemon extends Character {
-	constructor(name) {
-		super(name, "Daemon", 100, 1, 10, 40)
-	}
-}
 
-export class Undead extends Character {
-	constructor(name) {
-		super(name, "Undead", 100, 1, 25, 25)
-	}
-}
 
-export class Zombie extends Character {
-	constructor(name) {
-		super(name, "Zombie", 100, 1, 40, 10)
-	}
-}
 
-let bowerman = new Bowerman("Лучник");
-let swordsman = new Swordsman("Мечник");
-let magician = new Magician("Маг");
-let daemon = new Daemon("Демон");
-let undead = new Undead("Нежить");
-let zombie = new Zombie("Зомби");
 
-console.log(bowerman);
-console.log(swordsman);
-console.log(magician);
-console.log(daemon);
-console.log(undead);
-console.log(zombie);
